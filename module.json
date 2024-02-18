@@ -3,7 +3,7 @@
   "title": "Westemar",
   "description": "Campaign Content for DnD5e.",
   "url": "https://github.com/BBurns42/westemar",
-  "version": "v0.0.0",
+  "version": "v0.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
@@ -17,21 +17,64 @@
       "flags": {}
     }
   ],
-"relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system"
-            },
-            {
-                "id": "pf2e",
-                "type": "system"
-            }
-        ]
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      },
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "LockView",
+        "type": "module"
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module"
+      },
+      {
+        "id": "monks-enhanced-journal",
+        "type": "module"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes.db",
+      "type": "Scene",
+      "entity": "Scene"
     },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items.db",
+      "type": "Item",
+      "entity": "Item"
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells.db",
+      "type": "Item",
+      "entity": "Item"
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables.db",
+      "type": "RollTable",
+      "entity": "RollTable"
+    }
+  ],
   "manifest": "https://raw.githubusercontent.com/BBurns42/westemar/main/module.json",
-  "download": "https://github.com/BBurns42/westemar/archive/refs/tags/v0.0.0.zip",
-
+  "download": "https://github.com/BBurns42/westemar/archive/refs/tags/v0.0.1.zip",
   "authors": [
     {
       "name": "BBurns42",
