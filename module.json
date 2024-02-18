@@ -3,7 +3,7 @@
   "title": "Westemar",
   "description": "Campaign Content for DnD5e.",
   "url": "https://github.com/BBurns42/westemar",
-  "version": "v0.0.3",
+  "version": "v0.0.4",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
@@ -64,7 +64,7 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/BBurns42/westemar/main/module.json",
-  "download": "https://github.com/BBurns42/westemar/archive/refs/tags/v0.0.3.zip",
+  "download": "https://github.com/BBurns42/westemar/archive/refs/tags/v0.0.4.zip",
   "authors": [
     {
       "name": "BBurns42",
