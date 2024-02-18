@@ -36,7 +36,7 @@
       "path": "packs/scenes.db",
       "type": "Scene",
       "entity": "Scene",
-      "module": "westemar"
+			"system": "dnd5e"
     },
     {
       "name": "items",
@@ -44,7 +44,7 @@
       "path": "packs/items.db",
       "type": "Item",
       "entity": "Item",
-      "module": "westemar"
+			"system": "dnd5e"
     },
     {
       "name": "spells",
@@ -52,7 +52,7 @@
       "path": "packs/spells.db",
       "type": "Item",
       "entity": "Item",
-      "module": "westemar"
+			"system": "dnd5e"
     },
     {
       "name": "roll-tables",
@@ -60,7 +60,7 @@
       "path": "packs/roll-tables.db",
       "type": "RollTable",
       "entity": "RollTable",
-      "module": "westemar"
+			"system": "dnd5e"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/BBurns42/westemar/main/module.json",
