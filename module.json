@@ -1,73 +1,71 @@
 {
   "id": "westemar",
-  "title": "Westemar",
-  "description": "Campaign Content for DnD5e.",
-  "url": "https://github.com/BBurns42/westemar",
-  "version": "v0.0.4",
+  "title": "westemar",
+  "version": "0.0.5",
   "compatibility": {
     "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
+    "verified": "11"
   },
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
-    }
-  ],
   "relationships": {
     "systems": [
       {
         "id": "dnd5e",
-        "type": "system"
-      },
-      {
-        "id": "pf2e",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
       }
     ]
   },
+  "description": "Campaign Content for DnD5e.",
+  "url": "https://github.com/BBurns42/westemar",
+  "manifest": "https://raw.githubusercontent.com/BBurns42/westemar/main/module.json",
+  "download": "https://github.com/BBurns42/westemar/archive/refs/tags/v0.0.5.zip",
   "packs": [
     {
       "name": "scenes",
       "label": "Scenes",
-      "path": "packs/scenes.db",
+      "path": "packs/scenes",
       "type": "Scene",
-      "entity": "Scene",
-      "system": "dnd5e"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "items",
       "label": "Items",
-      "path": "packs/items.db",
+      "path": "packs/items",
       "type": "Item",
-      "entity": "Item",
-      "system": "dnd5e"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "spells",
       "label": "Spells",
-      "path": "packs/spells.db",
+      "path": "packs/spells",
       "type": "Item",
-      "entity": "Item",
-      "system": "dnd5e"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "roll-tables",
       "label": "Roll Tables",
-      "path": "packs/roll-tables.db",
+      "path": "packs/roll-tables",
       "type": "RollTable",
-      "entity": "RollTable",
-      "system": "dnd5e"
-    }
-  ],
-  "manifest": "https://raw.githubusercontent.com/BBurns42/westemar/main/module.json",
-  "download": "https://github.com/BBurns42/westemar/archive/refs/tags/v0.0.4.zip",
-  "authors": [
-    {
-      "name": "BBurns42",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
       "flags": {}
     }
   ]
