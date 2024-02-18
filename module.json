@@ -27,20 +27,6 @@
         "id": "pf2e",
         "type": "system"
       }
-    ],
-    "requires": [
-      {
-        "id": "LockView",
-        "type": "module"
-      },
-      {
-        "id": "monks-active-tiles",
-        "type": "module"
-      },
-      {
-        "id": "monks-enhanced-journal",
-        "type": "module"
-      }
     ]
   },
   "packs": [
@@ -49,28 +35,32 @@
       "label": "Scenes",
       "path": "packs/scenes.db",
       "type": "Scene",
-      "entity": "Scene"
+      "entity": "Scene",
+      "module": "westemar"
     },
     {
       "name": "items",
       "label": "Items",
       "path": "packs/items.db",
       "type": "Item",
-      "entity": "Item"
+      "entity": "Item",
+      "module": "westemar"
     },
     {
       "name": "spells",
       "label": "Spells",
       "path": "packs/spells.db",
       "type": "Item",
-      "entity": "Item"
+      "entity": "Item",
+      "module": "westemar"
     },
     {
       "name": "roll-tables",
       "label": "Roll Tables",
       "path": "packs/roll-tables.db",
       "type": "RollTable",
-      "entity": "RollTable"
+      "entity": "RollTable",
+      "module": "westemar"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/BBurns42/westemar/main/module.json",
