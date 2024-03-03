@@ -1,7 +1,7 @@
 {
   "id": "westemar",
   "title": "westemar",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -18,55 +18,139 @@
   "description": "Campaign Content for DnD5e.",
   "url": "https://github.com/BBurns42/westemar",
   "manifest": "https://raw.githubusercontent.com/BBurns42/westemar/main/module.json",
-  "download": "https://github.com/BBurns42/westemar/archive/refs/tags/v0.0.5.zip",
+  "download": "https://github.com/BBurns42/westemar/archive/refs/tags/v0.0.6.zip",
   "packs": [
     {
       "name": "scenes",
       "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "items",
       "label": "Items",
       "path": "packs/items",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "spells",
       "label": "Spells",
       "path": "packs/spells",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "roll-tables",
       "label": "Roll Tables",
       "path": "packs/roll-tables",
       "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
-      "flags": {}
+      "system": "dnd5e"
+    },
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "class-features",
+      "label": "Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "monster-features",
+      "label": "Monster Features",
+      "path": "packs/monster-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ]
 }
